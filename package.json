@@ -1,0 +1,26 @@
+{
+  "name": "bgy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemondreamtobe/blogYuan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemondreamtobe/blogYuan/issues"
+  },
+  "homepage": "https://github.com/lemondreamtobe/blogYuan#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
