@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./demo.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script src="https://unpkg.com/avalon2@2.2.8/dist/avalon.js"></script>
+    <style>
+        .head-pic{
+            padding: 2px 4px;
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+            background: #ffffff;
+        }
+        .head-pic .head-name{
+            position: absolute;
+            left: 68px;
+            top: 8px;
+            padding-right: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            overflow: hidden;
+        }
+        .head-container{
+            display: inline-block;
+            width: 18%;
+            padding: 6px 0px 2px;
+        }
+        .head-a{
+            display: block;
+            padding: 0 3px;
+            color: #333333;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            zoom: 1;
+        }
+        .head-head-img{
+            width: 50px;
+            height: 50px;
+            padding: 2px;
+            border: 1px solid #b1d1e1;
+        }
+        .head-added-img{
+            margin-left: -53px;
+            margin-bottom: 3px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="header">
+            <i><b>jquery和mvvm的类名操作比较</b></i>
+        </div>
+        <div class="method-title">jq方法</div>
+        <div class="method-container">
+            <div class="head-container">
+                <a class="head-a">
+                    <span class="head-pic">
+                        <img class="head-head-img" src="http://hdn211.xnimg.cn/photos/hdn211/20090404/23/05/tiny_QwFi_76100b204238.jpg">
+                        <img class="head-added-img" src="http://www.zhangxinxu.com/study/image/friend_selected.gif">
+                        <span class="head-name">李胜兰</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
