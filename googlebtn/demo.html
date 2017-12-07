@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="./demo.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.css" rel="stylesheet">
     <style>
         .g_a{
             display:inline-block; 
@@ -126,11 +127,46 @@
         .btn-container > a{
             vertical-align: middle;
         }
+        .btn-container > button{
+            cursor: pointer;
+        }
+        .tc-15-btn{
+            display: block;
+            line-height: 45px;
+            margin: 0 auto;
+            width: 218px;
+            height: 47px;
+            border: 1px solid #2277da;
+            color: #2277da;
+            padding: 0;
+            font-size: 16px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            min-width: 24px;
+            text-align: center;
+            transition: .2s ease background;
+            background-color: rgba(237,113,31,0);
+            /* background: #0071ce; */
+        }
+        .tc-15-btn:hover{
+            background: #0071ce;
+            color: white;
+            text-decoration: none;
+        }
+        .tc-15-btn{
+            -webkit-tap-highlight-color: transparent;
+        }
+        .tc-15-btn{
+            text-decoration: none;
+        }
     </style>
 
 </head>
 <body>
     <div class="demo-container">
+        <div class="header">
+            <i><b>按钮也是一门大学问</b></i>
+        </div>
         <div class="method-title">
             谷歌按钮
         </div>
@@ -138,7 +174,7 @@
             <a href="#nogo" class="g_a">
                 <span class="g_b">
                     <span class="g_c">&nbsp;</span>
-                    <span class="g_d">圆角按钮</span>
+                    <span class="g_d">谷歌按钮</span>
                 </span>
             </a>
         </div>
@@ -148,7 +184,7 @@
         <div class="btn-container">
             <a href="#" class="x_a">
                 <span class="x_b">
-                    <span class="x_c">高光投影按钮</span>
+                    <span class="x_c">投影按钮</span>
                 </span>
             </a>
             - 连接按钮的文字 -
@@ -157,6 +193,41 @@
                     <span class="x_c_p">粉色按钮</span>
                 </span>
             </a>
+        </div>
+        <div class="method-title">
+            bootstrap按钮
+        </div>
+        <div class="btn-container">
+            <!-- <button class="btn">bootstrap按钮</button> -->
+            <button class="btn btn-default">bootstrap按钮</button>
+            <button type="button" class="btn btn-primary">bootstrap按钮</button>
+            
+            <!-- Indicates a successful or positive action -->
+            <button type="button" class="btn btn-success">bootstrap按钮</button>
+            
+            <!-- Contextual button for informational alert messages -->
+            <button type="button" class="btn btn-info">bootstrap按钮</button>
+            
+            <!-- Indicates caution should be taken with this action -->
+            <button type="button" class="btn btn-warning">bootstrap按钮</button>
+            
+            <!-- Indicates a dangerous or potentially negative action -->
+            <button type="button" class="btn btn-danger">bootstrap按钮</button>
+            
+            <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+            <button type="button" class="btn btn-link">bootstrap按钮链接</button>
+        </div>
+        <div class="method-title">
+            最原始按钮
+        </div>
+        <div class="btn-container">
+            <button type="button">原始按钮</button>
+        </div>
+        <div class="method-title">
+            腾讯云按钮
+        </div>
+        <div class="btn-container">
+            <a class="tc-15-btn" href="#">腾讯云按钮</a>
         </div>
     </div>
 </body>
