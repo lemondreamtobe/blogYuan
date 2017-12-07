@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./demo.css" rel="stylesheet">
+    <style>
+        .g_a{
+            display:inline-block; 
+            border-width:1px 0; 
+            border-color:#bbbbbb; 
+            border-style:solid; 
+            vertical-align:middle;
+        }
+        .g_b{
+            float:left; 
+            background:#e3e3e3; 
+            border-width:0 1px; 
+            border-color:#bbbbbb; 
+            border-style:solid; 
+            margin:0 -1px; 
+            position:relative;
+        }
+        .g_c{
+            display:block; 
+            line-height:0.6em;
+            background:#f9f9f9;
+            border-bottom:2px solid #eeeeee;
+        }
+        .g_d{
+            display:block; 
+            padding:0.1em 0.6em; 
+            margin-top:-0.6em; 
+            cursor:pointer;
+            color: #536b82;
+        }
+        .btn-container{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .g_a:hover{border-color:#999999;}
+        .g_a:hover .g_b{border-color:#999999;}
+
+        .x_a{
+            display:inline-block; 
+            border-top:1px solid #d6d6d6; 
+            border-bottom:1px solid #e5e5e5; 
+            font-size:12px;
+        }
+        .x_b{
+            float:left; 
+            border-left:1px solid #d6d6d6; 
+            border-right:1px solid #c2c2c2; 
+            border-bottom:1px solid #c2c2c2; 
+            margin:0 -1px; 
+            position:relative;
+        }
+        .x_c{
+            display:inline-block; 
+            padding:0.3em 0.6em 0; 
+            background:#f4f4f4; 
+            border-left:1px solid #ffffff; 
+            border-top:1px solid #ffffff; 
+            border-bottom:0.2em solid #f0f0f0; 
+            line-height:1.1em; 
+            cursor:pointer;
+            color:#536b82;
+        }
+        .x_a_p{
+            display:inline-block; 
+            border-top:1px solid #FBD0B2; 
+            border-bottom:1px solid #FCE1CE; 
+            font-size:12px;
+        }
+        .x_b_p{
+            float:left; 
+            border-left:1px solid #FBD0B2; 
+            border-right:1px solid #F9B88C;
+            border-bottom:1px solid #F9B88C; 
+            margin:0 -1px; 
+            position:relative;
+        }
+        .x_c_p{
+            display:inline-block; 
+            padding:0.3em 0.6em 0; 
+            background:#FEF3EB; 
+            border-left:1px solid #ffffff;
+            border-top:1px solid #ffffff; 
+            border-bottom:0.2em solid #FEEEE3; 
+            line-height:1.1em; 
+            cursor:pointer;
+            color:#536b82;
+        }
+        .x_a:hover{
+            border-top-color:#c0c0c0; 
+            border-bottom-color:#cecece;
+        }
+        .x_a:hover .x_b{
+            border-left-color:#c0c0c0;
+            border-right-color:#aeaeae; 
+            border-bottom-color:#aeaeae;
+        }
+        .x_a:hover .x_c{
+            background:#dbdbdb; 
+            border-left-color:#e3e2e1; 
+            border-top-color:#e5e5e5; 
+            border-bottom-color:#d7d7d7;
+        }
+        .x_a_p:hover{
+            border-top-color:#FFBE91; 
+            border-bottom-color:#FFCEAD;
+        }
+        .x_a_p:hover .x_b_p{
+            border-left-color:#FFBE91; 
+            border-right-color:#FFA76B; 
+            border-bottom-color:#FFA76B;
+        }
+        .x_a_p:hover .x_c_p{
+            background:#FFDFC9; 
+            border-left-color:#FFE7D7; 
+            border-top-color:#FFEBDD; 
+            border-bottom-color:#FFDAC1;
+        }
+        .btn-container > a{
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="demo-container">
+        <div class="method-title">
+            谷歌按钮
+        </div>
+        <div class="btn-container">
+            <a href="#nogo" class="g_a">
+                <span class="g_b">
+                    <span class="g_c">&nbsp;</span>
+                    <span class="g_d">圆角按钮</span>
+                </span>
+            </a>
+        </div>
+        <div class="method-title">
+            虾米按钮
+        </div>
+        <div class="btn-container">
+            <a href="#" class="x_a">
+                <span class="x_b">
+                    <span class="x_c">高光投影按钮</span>
+                </span>
+            </a>
+            - 连接按钮的文字 -
+            <a href="#" class="x_a_p">
+                <span class="x_b_p">
+                    <span class="x_c_p">粉色按钮</span>
+                </span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
